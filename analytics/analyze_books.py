@@ -9,7 +9,12 @@ print("Average rating:", round(df["rating"].mean(), 2))
 
 print("\nBooks by category:")
 print(df["category"].value_counts())
-
+print("\nAverage price by category:")
+print(
+    df.groupby("category")["price_inr"]
+    .mean()
+    .sort_values(ascending=False)
+)
 print("\nTop 10 expensive books:")
 print(
     df[["title", "price_inr"]]
