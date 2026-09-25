@@ -1,5 +1,6 @@
 # Zepto Data & AI Platform
 
+Live Dashboard: https://zepto-data-ai-platform-ejv6mvym9z4ajdoamfgkvs.streamlit.app
 An end-to-end AI/ML engineering project built as a single repository.
 
 ## Project Modules
